@@ -26,6 +26,11 @@ async function run() {
     //database collection
     const toyCollection = client.db("toy-shop").collection("allToys");
 
+    //get all toys
+    app.get("/", async (req, res) => {
+      const result = await toyCollection.find().toArray();
+      res.send(result);
+    });
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
@@ -37,10 +42,6 @@ async function run() {
   }
 }
 run().catch(console.dir);
-
-app.get("/", (req, res) => {
-  res.send("surver is okay");
-});
 
 app.listen(port, () => {
   console.log(`running on ${port}`);

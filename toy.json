@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Iron Man full set",
+    "category": "marvel",
+    "heroName": "Iron Man",
+    "sellerName": "Admin",
+    "price": 29.99,
+    "ratings": 5,
+    "quantity": 10,
+    "photoURL": "https://cdn.shopify.com/s/files/1/1222/8368/products/1_95121142-5235-4fcc-9511-7a119ce91049_800x.jpg?v=1610788400",
+    "discount": 25,
+    "trending": true,
+    "description": "Iron Man's armor is a fictional powered exoskeleton appearing in American comic books published by Marvel Comics. It is built and worn by billionaire Tony Stark when he assumes the identity of the superhero Iron Man. The first armor was created in-story by Stark and Ho Yinsen, and was designed by artist Jack Kirby, first appearing in Tales of Suspense"
+  },
+  {
+    "title": "Super Man full set",
+    "category": "dc",
+    "heroName": "Super Man",
+    "sellerName": "Admin",
+    "price": 20.99,
+    "ratings": 4,
+    "quantity": 16,
+    "photoURL": "https://i.ebayimg.com/images/g/UrgAAOSwN2lishre/s-l1600.jpg",
+    "discount": 10,
+    "trending": true,
+    "description": "Superman is a superhero who appears in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and debuted in the comic book Action Comics"
+  },
+  {
+    "title": "Mjölnir of Thor",
+    "category": "marvel",
+    "heroName": "Thor",
+    "sellerName": "Admin",
+    "price": 24.99,
+    "ratings": 4,
+    "quantity": 16,
+    "photoURL": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c9/Reformed_Mjolnir.png/revision/latest?cb=20221026062139",
+    "discount": 30,
+    "trending": false,
+    "description": "Mjolnir, known more formally as Mjölnir is a fictional magical weapon appearing in American comic books published by Marvel Comics. It is depicted as the principal weapon of the superhero Thor. Mjolnir, which first appears in Journey into Mystery"
+  },
+  {
+    "title": "Batmobile of Batman",
+    "category": "dc",
+    "heroName": "Batman",
+    "sellerName": "Admin",
+    "price": 25.99,
+    "ratings": 5,
+    "quantity": 6,
+    "photoURL": "https://barrettjacksoncdn.azureedge.net/staging/carlist/items/Fullsize/Cars/261091/261091_Rear_3-4_Web.jpg",
+    "discount": 10,
+    "trending": true,
+    "description": "The Batmobile is the fictional car driven by the superhero Batman. Housed in the Batcave, which it accesses through a hidden entrance, the Batmobile is both a heavily armored tactical assault vehicle and a personalized custom-built pursuit and capture vehicle that is used by Batman in his fight against crime. Using the latest civilian performance technology, coupled with prototype military-grade hardware—most of which was developed by Wayne Enterprises—Batman creates an imposing hybrid monster car to prowl the streets of Gotham City"
+  },
+  {
+    "title": "The Black Perl",
+    "category": "pirates",
+    "heroName": "Jack Sparrow",
+    "sellerName": "Admin",
+    "price": 30.99,
+    "ratings": 5,
+    "quantity": 10,
+    "photoURL": "https://static.wikia.nocookie.net/pirates/images/6/62/Black_Pearl_infobox.png/revision/latest?cb=20171110192901",
+    "discount": 10,
+    "trending": true,
+    "description": "In the universe of the Pirates of the Caribbean, The Black Pearl was built by the French and was originally a merchant ship called Wicked Wench (the name of the ship from the Pirates of the Caribbean attraction at Disneyland Park, which is shown shelling a fort), but its crew later turned to piracy under the command of a pirate captain named Morgan"
+  },
+  {
+    "title": "Jack Sparrow Compass",
+    "category": "pirates",
+    "heroName": "Jack Sparrow",
+    "sellerName": "Admin",
+    "price": 20.99,
+    "ratings": 4,
+    "quantity": 20,
+    "photoURL": "https://static.wikia.nocookie.net/pirates/images/f/fa/Piratecompass600.jpg/revision/latest?cb=20110804141344",
+    "discount": 40,
+    "trending": false,
+    "description": "Jack Sparrow's compass was an unusual navigational instrument most notably used by Captain Jack Sparrow, which he bartered from the voodoo mystic Tia Dalma and later inherited from his captain. For those who knew how to use it, the compass was the key to everything."
+  }
+]
