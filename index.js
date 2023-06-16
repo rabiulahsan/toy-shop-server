@@ -3,7 +3,7 @@ const cors = require("cors");
 require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 5000;
-app.use(cors());
+app.use(cors())
 app.use(express.json());
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
@@ -41,7 +41,10 @@ async function run() {
       res.send(result);
     });
 
-    //put a toy
+
+ 
+
+    //post a toy
     app.post("/", async (req, res) => {
       const toyDetails = req.body;
       console.log(toyDetails);
@@ -50,20 +53,37 @@ async function run() {
       res.send(result);
     });
 
-    //get toys by email
-    app.get("/mytoys", async (req, res) => {
-      console.log(req.query);
-
-      let query = {};
-      if (req.query?.email) {
-        query = {
-          email: req.query.email,
-        };
+    //put a toy
+    app.put('/:id', async(req, res) => {
+      const id = req.params.id;
+      const filter = {_id: new ObjectId(id)}
+      const options = { upsert: true };
+      const updatedToy = req.body;
+console.log(updatedToy);
+      const toy = {
+          $set: {
+              ...updatedToy
+          }
       }
-      const cursor = toyCollection.find(query);
-      const result = await cursor.toArray();
+
+      const result = await toyCollection.updateOne(filter, toy, options);
       res.send(result);
-    });
+  })
+
+    //get toys by email
+    // app.get("/mytoys", async (req, res) => {
+    //   console.log(req.query);
+
+    //   let query = {};
+    //   if (req.query?.email) {
+    //     query = {
+    //       email: req.query.email,
+    //     };
+    //   }
+    //   const cursor = toyCollection.find(query);
+    //   const result = await cursor.toArray();
+    //   res.send(result);
+    // });
 
     //delete
 
